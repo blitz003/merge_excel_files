@@ -5,6 +5,9 @@ Merge every Excel workbook in a folder into **one tidy `xlsx` file**—all from 
 > **Quick-start**  
 > ```bash
 > python merge_excels.py /path/to/folder
+> ```
+> > ```bash
+> python merge_excels.py . -o merged.xlsx
 > ```  
 > Creates **`merged.xlsx`** in the current directory.
 
